@@ -5,7 +5,8 @@ def map(source_array, block)
   while i < array.length
   new.push(yield(array[i]))
   i += 1
-  
+  end
+
 end
 
 def reduce(source_array, starting_point = 0)
