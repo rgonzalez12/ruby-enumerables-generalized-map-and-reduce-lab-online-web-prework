@@ -2,7 +2,7 @@
 def map(source_array, block)
   new = []
   i = 0
-  
+  while i < array.length 
 end
 
 def reduce(source_array, starting_point = 0)
